@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #000210;
+    display: flex;
+    
+}
+.email-box{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    
+    margin: 50px 50px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 0;
+}
+input[type="password"]{
+    margin-right: 20px;
+}
+.fa{
+    margin-right: 20px;
+}
+.fas{
+    margin-right: 20px;
+}
+textarea, button{
+    width: 100%;
+    outline: none;
+    border: 0;
+}
+textarea{
+    border-radius: 20px;
+    background: #fff;
+    padding: 12px 15px;
+    margin-bottom: 50px;
+}
+input[type="submit"],
+input[type="reset"]
+{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 18px;
+    padding: 8px 40px;
+    background: #007bff;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    width: 49%;
+
+}
+input[type="submit"]:hover{
+    background-color: teal;
+
+}
+input[type="reset"]:hover{
+    background-color: teal;
+
+}
+
+
+
+
+.email-box img{
+    width: 70%;
+}
+h1{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.user, .email, .password{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 15px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
